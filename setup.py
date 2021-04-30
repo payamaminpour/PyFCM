@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug  6 11:35:43 2018
+Created on Fri Apr  30 11:55:30 2021
 
-@author: Payam Aminpour
+@author: Corey White
 """
 
 import setuptools
@@ -12,13 +12,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PyFCM",
-    version="0.0.1",
-    author="Payam Aminpour",
-    author_email="aminpour@msu.edu",
+    version="1.0.0",
+    author="Corey White",
+    author_email="ctwhite@ncsu.edu",
     description="A package for FCM scenario analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/payamaminpour/PyFCM",
+    url="https://github.com/tomorrownow/PyFCM",
     packages=setuptools.find_packages(),
     classifiers=(
         "Programming Language :: Python :: 3",
